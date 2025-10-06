@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 import conectarImg from './assets/connect.png';
 import colaborarImg from './assets/collab.png'; 
 import crearImg from './assets/create.png'; 
+import logoImg from './assets/logo.png';
 //import compartirImg from './assets/share.png';
 
 const App = () => {
@@ -198,7 +199,7 @@ const handleSubmit = (e) => {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="w-10 h-10 bg-[#FBC658] rounded-full flex items-center justify-center">
-                <img src="src/assets/logo.png" alt="logo" />
+                <img src={logoImg} alt="logo" />
               </div>
               <span className="ml-3 text-xl font-bold text-gray-800">HoloJam</span>
             </div>
@@ -463,7 +464,7 @@ const handleSubmit = (e) => {
         <div className="max-w-7xl mx-auto text-center">
           <div className="flex items-center justify-center mb-4">
             <div className="w-8 h-8 bg-[#FBC658] rounded-full flex items-center justify-center">
-              <img className = "h-8 w-8" src="src/assets/logo.png" alt="logo" />
+              <img className="h-8 w-8" src={logoImg} alt="logo"  />
             </div>
             
             <span className="ml-2 text-xl font-bold">HoloJam</span>
