@@ -97,7 +97,7 @@ const App = () => {
       features: [
         "Conéctate con músicos de todo el mundo",
         "Colabora en proyectos de forma asincrónica",
-        "Comparte tu música con una comunidad global",
+        "Comparte tu música con una globalmente",
         "Descubre nuevo talento y oportunidades"
       ],
       whyHoloJam: "¿Por qué HoloJam?",
