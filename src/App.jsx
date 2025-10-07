@@ -68,7 +68,7 @@ const App = () => {
         },
         {
           title: "Collaborate",
-          description: "Work together on projects with real-time collaboration tools and version control.",
+          description: "Work together on projects with asynchronous collaboration tools and version control.",
           imageUrl: colaborarImg
         },
         {
