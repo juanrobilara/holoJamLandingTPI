@@ -7,6 +7,7 @@ import conectarImg from './assets/connect.png';
 import colaborarImg from './assets/collab.png'; 
 import crearImg from './assets/create.png'; 
 import logoImg from './assets/logo.png';
+import productImg from './assets/product.jpg'
 //import compartirImg from './assets/share.png';
 
 const App = () => {
@@ -96,7 +97,7 @@ const App = () => {
       heroSubtitle: "HoloJam conecta músicos globalmente para colaborar, compartir y crear música inolvidable.",
       features: [
         "Conéctate con músicos de todo el mundo",
-        "Colabora en proyectos de forma asincrónica",
+        "Colabora en proyectos asincrónicos",
         "Comparte tu música globalmente",
         "Descubre nuevo talento y oportunidades"
       ],
@@ -247,7 +248,7 @@ const handleSubmit = (e) => {
     <div className="flex flex-col lg:flex-row items-center gap-12">
       
       {/* Ganchito piola */}
-      <div className="lg:w-1/2 text-center lg:text-left">
+      <div className="lg:w-2/3 text-center lg:text-left">
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -301,7 +302,7 @@ const handleSubmit = (e) => {
       >
         <div className="relative group">
           <motion.img
-            src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80"
+            src= {productImg}
             alt="HoloJam Music Collaboration"
             className="rounded-2xl shadow-2xl w-full max-w-lg h-auto object-cover transition-transform duration-500 group-hover:scale-105"
           />
